@@ -9,5 +9,7 @@ $(function(){
               { title: 'bookfour', author: 'afour', releaseData: '2011', keywords: 'number four' }];
 
 console.log('start new library view');
+
+$('#releaseDate').datepicker();
   new app.LibraryView(books);
 });

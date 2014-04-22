@@ -29,7 +29,7 @@ var Keywords = new mongoose.Schema({
 var Book = new mongoose.Schema({
   title: String,
   author: String,
-  releaseData: Date,
+  releaseDate: Date,
   Keywords: [ Keywords ]
 });
 
